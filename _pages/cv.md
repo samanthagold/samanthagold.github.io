@@ -8,5 +8,5 @@ redirect_from:
 ---
 
 {% include base_path %}
-<embed src="http://www.skeigold.com/resume/" width="600" height="700" type='application/pdf'> 
+<embed <iframe src="https://docs.google.com/gview?url=https://path.com/to/your/pdf.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>> 
 
