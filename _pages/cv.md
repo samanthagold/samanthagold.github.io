@@ -8,5 +8,5 @@ redirect_from:
 ---
 
 {% include base_path %}
-<embed src="{{ site.baseurl }}/files/SKG_CV_Feb2023_v2.pdf" width="600" height="700" type='application/pdf'> 
+<embed src="http://www.skeigold.com/resume/" width="600" height="700" type='application/pdf'> 
 
