@@ -1,0 +1,10 @@
+p---
+title: "Delivering Unemployment Assistance in Times of Crisis: Scalable Cloud Solutions Can Keep Essential Government Programs Running and Supporting Those in Need"
+collection: publications
+<>permalink: /publication/2015-10-01-paper-title-number-3
+excerpt: 'The COVID-19 public health emergency caused widespread economic shutdown and unemployment. The resulting surge in Unemployment Insurance claims threatened to overwhelm the legacy systems state workforce agencies rely on to collect, process, and pay claims. In Rhode Island, we developed a scalable cloud solution to collect Pandemic Unemployment Assistance claims as part of a new program created under the Coronavirus Aid, Relief and Economic Security Act to extend unemployment benefits to independent contractors and gig-economy workers not covered by traditional Unemployment Insurance. Our new system was developed, tested, and deployed within 10 days following the passage of the Coronavirus Aid, Relief and Economic Security Act, making Rhode Island the first state in the nation to collect, validate, and pay Pandemic Unemployment Assistance claims. A cloud-enhanced interactive voice response system was deployed a week later to handle the corresponding surge in weekly certifications for continuing unemployment benefits. Cloud solutions can augment legacy systems by offloading processes that are more efficiently handled in modern scalable systems, reserving the limited resources of legacy systems for what they were originally designed. This agile use of combined technologies allowed Rhode Island to deliver timely Pandemic Unemployment Assistance benefits with an estimated cost savings of $502,000 (representing a 411% return on investment).'
+date: 11-9-2020
+venue: 'ACM Digital Government: Research and Practice'
+paperurl: 'https://dl.acm.org/doi/abs/10.1145/3428125'
+<>citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+---
