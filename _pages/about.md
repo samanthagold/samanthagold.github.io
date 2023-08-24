@@ -14,6 +14,11 @@ I am a second-year applied economics PhD student at Cornell Brooks Public Policy
 Fall 2023:    Started second year at Cornell Brooks
 Fall 2022:    Started first year at Cornell Brooks
 
+Fall 2023
+:   **Started second year at Cornell Brooks 
+Fall 2022
+:   **Started first year at Cornell Brooks
+
 
 <details>
 <summary>News</summary>
