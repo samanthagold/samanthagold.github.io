@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samantha Gold — CV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:      #181C20;
+  --bg2:     #1F2429;
+  --white:   #EDEAE4;
+  --muted:   #7A8694;
+  --faint:   #3D4750;
+  --lime:    #C8F000;
+  --lime-d:  #1C2300;
+  --pink:    #FF2D78;
+  --border:  #2A3138;
+  --sans:    'Outfit', system-ui, sans-serif;
+}
+
+html, body { height: 100%; }
+
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── NAV ── */
+nav {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 4rem; height: 58px;
+  flex-shrink: 0;
+}
+
+.nav-name {
+  font-family: var(--sans);
+  font-size: 17px; font-weight: 600;
+  color: var(--pink);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.nav-right {
+  display: flex; align-items: center; gap: 2rem;
+}
+
+.nav-link {
+  font-size: 12px; font-weight: 500;
+  letter-spacing: 0.07em; text-transform: uppercase;
+  color: var(--muted); text-decoration: none;
+  transition: color 0.15s;
+}
+.nav-link:hover { color: var(--white); }
+
+.nav-download {
+  font-size: 12px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--lime);
+  border: 1px solid rgba(200,240,0,0.35);
+  padding: 5px 14px; border-radius: 3px;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.nav-download:hover { background: var(--lime); color: #1C2300; }
+
+/* ── PDF EMBED ── */
+.pdf-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+iframe {
+  flex: 1;
+  width: 100%;
+  border: none;
+  min-height: calc(100vh - 58px);
+}
+
+/* fallback for mobile */
+.pdf-fallback {
+  display: none;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.pdf-fallback p {
+  font-size: 15px; font-weight: 300;
+  color: var(--muted); margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  nav { padding: 0 1.5rem; }
+  iframe { display: none; }
+  .pdf-fallback { display: block; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-name">Samantha Gold</a>
+  <div class="nav-right">
+    <a href="index.html" class="nav-link">← Back</a>
+  </div>
+</nav>
+
+<div class="pdf-wrap">
+  <iframe
+    src="https://docs.google.com/viewer?url=https://samanthagold.github.io/files/SamanthaGold_CV.pdf&embedded=true"
+    title="Samantha Gold CV">
+  </iframe>
+
+  <div class="pdf-fallback">
+    <p>PDF preview isn't available on mobile.</p>
+    <a href="https://samanthagold.github.io/files/SamanthaGold_CV.pdf"
+       target="_blank"
+       class="nav-download">View CV ↗</a>
+  </div>
+</div>
+
+</body>
+</html>
